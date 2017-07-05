@@ -95,7 +95,7 @@
     });
     var win = $(window)
       , foo = $('#typer');
-    foo.typer(['<h2>Web Developer / Sysadmin </h2>', '<h2>frontend developer</h2>','<h2>Secrets...</h2>']);
+    foo.typer(['<h2>C++ Developer / Linux Sysadmin </h2>', '<h2>Android Developer</h2>','<h2>OS Developer / Game Developer</h2>']);
     win.resize(function() {
         var fontSize = Math.max(Math.min(win.width() / (1 * 10), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY));
         foo.css({
