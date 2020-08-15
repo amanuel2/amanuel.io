@@ -854,7 +854,7 @@ button.button-small:hover {
 .service-block .contact-button {
     height: 5px;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     left: 0;
     right: 0;
     background: #07cb79;

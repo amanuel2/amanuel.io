@@ -1,1 +1,3 @@
-# amanuel2.github.io
+# Offical Portfolio for Amanuel
+
+https://amanuel.io
