@@ -48,17 +48,17 @@
         target: '.navbar-default',
         offset: 80
     })
-    $("html").niceScroll({
-        scrollspeed: 150,
-        mousescrollstep: 38,
-        cursorwidth: 7,
-        cursorborder: 0,
-        cursorcolor: '#2f3742',
-        autohidemode: true,
-        zindex: 999999999,
-        horizrailenabled: false,
-        cursorborderradius: 0
-    });
+    // $("html").niceScroll({
+    //     scrollspeed: 150,
+    //     mousescrollstep: 38,
+    //     cursorwidth: 7,
+    //     cursorborder: 0,
+    //     cursorcolor: '#2f3742',
+    //     autohidemode: true,
+    //     zindex: 999999999,
+    //     horizrailenabled: false,
+    //     cursorborderradius: 0
+    // });
     /*
     $("#contactform").submit(function(e) {
         $("#ajaxloader").show();
