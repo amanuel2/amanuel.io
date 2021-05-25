@@ -32,6 +32,11 @@ a:focus,a:hover {
     transition: all .5s ease-out 0s
 }
 
+#ports {
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
 ol,ul {
     padding: 0;
     margin: 0
