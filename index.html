@@ -1,921 +1,484 @@
 <!DOCTYPE html>
-<html lang="it">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <title>Amanuel Bogale</title>
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="Freelancer_files/amanuel2.ico" />
-        <!-- bootstrap -->
-        <link href="Freelancer_files/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <!-- Theme CSS -->
-        <link href="Freelancer_files/css/freelancer.min.css" rel="stylesheet">
-        <!-- google font -->
-        <link
-            href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,300italic,400italic,600italic,700,700italic,800,800italic'
-            rel='stylesheet' type="text/css" />
-        <link
-            href='https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200italic,200,300,300italic,400italic,500,500italic,600,600italic,700italic,900italic,900,800,700,800italic'
-            rel='stylesheet' type="text/css" />
-        <!-- themify icon -->
-        <link href="Freelancer_files/themify-icons.css" rel="stylesheet" type="text/css" />
-        <!-- font awesome  -->
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel='stylesheet'
-            type="text/css">
-        <!-- magnific popup -->
-        <link href="Freelancer_files/magnific-popup.css" rel="stylesheet" type="text/css" />
-        <!-- jquery-ui -->
-        <link rel='stylesheet' href='Freelancer_files/jquery-ui.css'>
-        <!-- main style -->
-        <link href="Freelancer_files/style.css" rel="stylesheet" type="text/css" />
-        <!-- responsive -->
-        <link href="Freelancer_files/responsive.css" rel="stylesheet" type="text/css" />
-        <link href="Freelancer_files/fontawesome/css/fontawesome.css" rel="stylesheet">
-        <link href="Freelancer_files/fontawesome/css/brands.css" rel="stylesheet">
-        <link href="Freelancer_files/fontawesome/css/solid.css" rel="stylesheet">
-    </head>
-    <style>
-        .footer-bs {
-        background-color: #3c3d41;
-        padding: 60px 40px;
-        color: rgba(255, 255, 255, 1.00);
-        margin-bottom: 0px;
-        border-bottom-right-radius: 6px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 6px;
-        }
-        .footer-bs .footer-brand,
-        .footer-bs .footer-nav,
-        .footer-bs .footer-social,
-        .footer-bs .footer-ns {
-        padding: 10px 25px;
-        }
-        .footer-bs .footer-nav,
-        .footer-bs .footer-social,
-        .footer-bs .footer-ns {
-        border-color: transparent;
-        }
-        .footer-bs .footer-brand h2 {
-        margin: 0px 0px 10px;
-        color: #fff;
-        }
-        .footer-bs .footer-brand p {
-        font-size: 12px;
-        color: rgba(255, 255, 255, 0.70);
-        }
-        .footer-bs .footer-nav ul.pages {
-        list-style: none;
-        padding: 0px;
-        }
-        .footer-bs .footer-nav ul.pages li {
-        padding: 5px 0px;
-        }
-        .footer-bs .footer-nav ul.pages a {
-        color: rgba(255, 255, 255, 1.00);
-        font-weight: bold;
-        text-transform: uppercase;
-        }
-        .footer-bs .footer-nav ul.pages a:hover {
-        color: rgba(255, 255, 255, 0.80);
-        text-decoration: none;
-        }
-        .footer-bs .footer-nav h4 {
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        margin-bottom: 10px;
-        }
-        .footer-bs .footer-nav ul.list {
-        list-style: none;
-        padding: 0px;
-        }
-        .footer-bs .footer-nav ul.list li {
-        padding: 5px 0px;
-        }
-        .footer-bs .footer-nav ul.list a {
-        color: rgba(255, 255, 255, 0.80);
-        }
-        .footer-bs .footer-nav ul.list a:hover {
-        color: rgba(255, 255, 255, 0.60);
-        text-decoration: none;
-        }
-        .footer-bs .footer-social ul {
-        list-style: none;
-        padding: 0px;
-        }
-        .footer-bs .footer-social h4 {
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        }
-        .footer-bs .footer-social li {
-        padding: 5px 4px;
-        }
-        .footer-bs .footer-social a {
-        color: rgba(255, 255, 255, 1.00);
-        }
-        .footer-bs .footer-social a:hover {
-        color: rgba(255, 255, 255, 0.80);
-        text-decoration: none;
-        }
-        .footer-bs .footer-ns h4 {
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        margin-bottom: 10px;
-        color: #fff;
-        }
-        .footer-bs .footer-ns p {
-        font-size: 12px;
-        color: rgba(255, 255, 255, 0.70);
-        }
-        @media (min-width: 768px) {
-        .footer-bs .footer-nav,
-        .footer-bs .footer-social,
-        .footer-bs .footer-ns {
-        border-left: solid 1px rgba(255, 255, 255, 0.10);
-        }
-        }
-    </style>
-    <body>
-        <!--=================================
-            loading -->
-        <div id="loading">
-            <div id="loading-center">
-                <div id="loading-center-absolute">
-                    <div class="object" id="object_one"></div>
-                    <div class="object" id="object_two"></div>
-                    <div class="object" id="object_three"></div>
-                    <div class="object" id="object_four"></div>
-                </div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Amanuel Bogale</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/amanuel2.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/amanuel2.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/amanuel2.ico">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/amanuel2.ico" color="#5bbad5">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Production-ready Portfolio and Case Study Template for Visual Designers">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ui8">
+    <meta name="twitter:title" content="Folio Designer">
+    <meta name="twitter:description" content="Production-ready Portfolio and Case Study Template for Visual Designers">
+    <meta name="twitter:creator" content="@ui8">
+    <meta name="twitter:image" content="https://ui8-folio.herokuapp.com/img/twitter-card.jpg">
+    <meta property="og:title" content="Folio Designer">
+    <meta property="og:type" content="Article">
+    <meta property="og:url" content="https://ui8.net/ui8/products/folio-designer">
+    <meta property="og:image" content="https://ui8-folio.herokuapp.com/img/fb-og-image.jpg">
+    <meta property="og:description" content="Production-ready Portfolio and Case Study Template for Visual Designers">
+    <meta property="og:site_name" content="Folio Designer">
+    <meta property="fb:admins" content="132951670226590">
+    <link rel="stylesheet" media="all" href="css/app.css">
+    <script>var viewportmeta = document.querySelector('meta[name="viewport"]');
+if (viewportmeta) {
+  if (screen.width < 375) {
+    var newScale = screen.width / 375;
+    viewportmeta.content = 'width=375, minimum-scale=' + newScale + ', maximum-scale=1.0, user-scalable=no, initial-scale=' + newScale + '';
+  } else {
+    viewportmeta.content = 'width=device-width, maximum-scale=1.0, initial-scale=1.0';
+  }
+}</script>
+<script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-observe-mutations></script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="main">
+        <div class="header js-header" id="header">
+          <div class="header__center center"><a class="header__logo" href="index.html"><img class="header__pic" src="img/amanuel2.png" alt="" /></a>
+            <div class="header__social header__social_main">
+              <a class="header__link" href="https://www.linkedin.com/in/amanuel2/">
+                <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" width="20" height="20"/>
+                &nbsp;&nbsp;LinkedIn
+              </a>
+              <a class="header__link" href="https://github.com/amanuel2">
+                <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" width="30" height="30"/>
+                &nbsp;&nbsp;GitHub
+              </a>
             </div>
+            <button class="header__burger js-header-burger"></button>
+          </div>
+          <!--<div class="header__wrapper js-header-wrapper">
+            <div class="header__preview"><a class="header__logo" href="index.html"><img class="header__pic" src="img/logo-white.svg" alt="" /></a>
+              <div class="header__img"><img class="header__pic" src="img/bg-header.png" alt="" /></div>
+            </div>
+            <div class="header__center center">
+              <div class="header__contacts"><a class="header__line" href="mailto:hello@ui8.net">
+                  <span/>
+              </div>
+              <nav class="header__nav">
+                <a class="header__item" href="#">
+                  <span>About</span>
+                </a>
+                <a class="header__item" href="#">
+                  <span>Work</span>
+                </a>
+                <a class="header__item" href="#">
+                  <span>Services</span>
+                  </a>
+                <a class="header__item" href="#">
+                  <span>Contact</span>
+                </a>
+              </nav>
+            </div>
+          </div> -->
         </div>
-        <!--=================================
-            loading -->
-        <!--=================================
-            header -->
-        <header class="header" id="home">
-            <nav id="menu" class="navbar navbar-default">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"> <img src="Freelancer_files/amanuel2.png" alt="amanuel2 logo">
+        <div class="main__bg"><img class="main__pic" src="img/bg-main.jpg" alt=""></div>
+        <div class="main__center center">
+          <div class="main__wrap">
+            <div class="main__stage stage" data-aos="transform">Amanuel Bogale</div>
+            <h1 class="main__title title h1">
+              <span data-aos="transform" data-aos-delay="150">Hello, my</span>
+              <span data-aos="transform" data-aos-delay="300">name's Aman</span>
+              <span data-aos="transform" data-aos-delay="450">I'm a Software</span>
+              <span data-aos="transform" data-aos-delay="600">Engineer.</span>
+            </h1>
+            <a class="scroll js-scroll" href="#details" data-aos="transform">
+              <div class="scroll__icon"><img class="scroll__pic" src="img/scroll.svg" alt=""></div>
+              <div class="scroll__text">Scroll down</div>
+            </a>
+          </div>
+        </div>
+        <div class="main__view" data-aos>
+          <div class="main__preview"><img class="main__pic" src="img/main-pic-6.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic js-parallax" data-scale="2.5" data-orientation="up" src="img/main-pic-1.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.5" data-orientation="up" src="img/main-pic-2.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic" src="img/main-pic-3.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic" src="img/main-pic-4.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic js-parallax" data-scale="4.5" data-orientation="up" src="img/main-pic-5.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/main-pic-7.png" alt=""></div>
+        </div>
+        <div class="main__figures">
+          <div class="main__figure" data-aos="animation-translate-y"><img class="main__pic js-parallax" data-scale="2.2" data-orientation="down" src="img/figure-1.png" alt=""></div>
+          <div class="main__figure" data-aos="animation-translate-y" data-aos-delay="200"><img class="main__pic js-parallax" data-scale="2.2" data-orientation="up" src="img/figure-2.png" alt=""></div>
+          <div class="main__figure" data-aos="animation-translate-y" data-aos-delay="400"><img class="main__pic" src="img/figure-3.png" alt=""></div>
+        </div>
+      </div>
+      <div class="details" id="details">
+        <div class="details__center center">
+          <div class="details__head" data-aos="animation-scale-y">
+            <div class="details__stage stage">What I Do</div>
+            <h3 class="details__info h3">I enjoy creating delightful, <br>human-centered digital experiences <br>which help change lives for the better.</h3>
+          </div>
+          <h2 class="details__title" data-aos="animation-scale-y">Think. Solve. <br>Explore. </h2>
+          <div class="details__btn" data-aos="animation-translate-y">
+            <a href="mailto:abogale2@gmail.com?subject=subject">
+            <button class="btn btn_purple">
+              <span class="btn__text">Contact Me</span>
+              <svg class="icon icon-arrow-right">
+                <use xlink:href="img/sprite.svg#icon-arrow-right">
+                  <svg id="icon-arrow-right" viewBox="0 0 22 16">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.707.293a1 1 0 1 0-1.414 1.414L18.586 7H1a1 1 0 0 0 0 2h17.586l-5.293 5.293a1 1 0 0 0 1.414 1.414l7-7A.996.996 0 0 0 22 8m-.076-.383a.997.997 0 0 0-.217-.324l-7-7m7.217 7.324a.996.996 0 0 1 .076.374z"></path>
+                  </svg>
+                </use>
+              </svg></button></a></div>
+          <div class="details__container">
+            <div class="details__slider owl-carousel js-slider-details">
+              <div class="details__item">
+                <div class="details__preview details__preview_cursor" data-aos="animation-scale">
+                  <div class="details__img"><img class="details__pic fullstack_pic" src="img/fullstack.png" alt=""></div>
+                </div>
+                <h5 class="details__category h5" data-aos="animation-scale-y">Fullstack</h5>
+                <div class="details__text" data-aos="animation-scale-y">In the frontend side I have had professional experience as well as personal project websites like my full-scale forum called ng-forum using Angular as well as in Coursera where I used React to build their lecture video components. On the backend side I have worked with LinkedIn to provide reccomendations using Java/Scala.  </div>
+                <div class="details__btn" data-aos="animation-scale-y"><button class="btn btn_dark">Find out more </button></div>
+              </div>
+              <div class="details__item">
+                <div class="details__preview details__preview_hand" data-aos="animation-scale" data-aos-delay="150">
+                  <div class="details__img"><img class="details__pic" src="img/windows.png" alt=""></div>
+                </div>
+                <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="150">OS Dev</h5>
+                <div class="details__text" data-aos="animation-scale-y" data-aos-delay="150">I have developed an Operating System with a custom kernel called BoneOS. BoneOS has a custom memory manager, proccess scheduler, file system, bootloader and many more feautures</div>
+                <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="150"><button class="btn btn_dark">Find out more </button></div>
+              </div>
+              <div class="details__item">
+                <div class="details__preview details__preview_color" data-aos="animation-scale" data-aos-delay="300">
+                  <div class="details__img"><img class="details__pic mobile_pic" src="img/mobile.png" alt=""></div>
+                </div>
+                <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="300">Mobile Dev</h5>
+                <div class="details__text" data-aos="animation-scale-y" data-aos-delay="300">I have worked on IOS at my time with Airbnb mainly using Swift. I have worked with Android on my personal proejcts where I developed an application that allows users to register and book services as well as work on them for the pricing of their choosing.</div>
+                <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="300"><button class="btn btn_dark">Find out more </button></div>
+              </div>
+              <div class="details__item">
+                <div class="details__preview details__preview_cursor">
+                  <div class="details__img"><img class="details__pic" src="img/robot.png" alt=""></div>
+                </div>
+                <h5 class="details__category h5">Artifical Intelligence</h5>
+                <div class="details__text">I have worked on AI Frameworks such as Tenserflow as well as python frameworks related to AI. I have also worked with AI in oracle to find efficent method for anomaly detection. Through college I have took multiple stat courses, linear algebra, and plan to take several data-science & AI courses before my graduation.</div><button class="details__btn btn btn_dark">Find out more </button>
+              </div>
+              <div class="details__item">
+                <div class="details__preview details__preview_hand2">
+                  <div class="details__img"><img class="details__pic" src="img/vr.png" alt=""></div>
+                </div>
+                <h5 class="details__category h5">Virtual Reality</h5>
+                <div class="details__text">I will also be working with Meta, specifically Oculus, to upgrade web experiences in VR such as the Oculus Browser. More info to come...</div><button class="details__btn btn btn_dark">Find out more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="details__figures">
+          <div class="details__figure"><img class="details__pic js-parallax" data-scale="2" data-orientation="down" src="img/figure-1.png" alt=""></div>
+          <div class="details__figure"><img class="details__pic js-parallax" data-scale="2" data-orientation="up" src="img/figure-2.png" alt=""></div>
+          <div class="details__figure"><img class="details__pic js-parallax" data-scale="1.2" data-orientation="up" src="img/figure-3.png" alt=""></div>
+        </div>
+      </div>
+      <div class="work">
+        <div class="work__circles"></div>
+        <div class="work__center center">
+          <div class="work__wrap">
+            <div class="work__stage stage stage_pink" data-aos="animation-scale-y">Who I Worked With</div>
+            <h2 class="work__title title h1" data-aos="animation-scale-y" data-aos-delay="150">
+              <span style="color:#f80000;">Oracle</span>
+              <span style="color:#0056D2;">Coursera</span>
+              <span style="color:#0077b5;">LinkedIn</span> &nbsp;
+              <span style="color:#FF5A5F">Airbnb</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span style="color:#0668E1;">Meta</span>
+            </h2>
+            <div class="work__text" data-aos="animation-scale-y" data-aos-delay="300">I research and create breakthrough - delightful ideas. I'm a hardworker, teamplayer, and most of all out of the box thinker. Check out my <a style="color:white;" href="https://www.linkedin.com/in/amanuel2/">LinkedIn</a> to see what I acomplished during my time with those companies.</div><a class="scroll js-scroll" data-aos="animation-scale-y" href="#cases">
+              <div class="scroll__icon"><img class="scroll__pic" src="img/scroll.svg" alt=""></div>
+              <div class="scroll__text">Scroll down</div>
+            </a>
+          </div>
+        </div>
+        <div class="work__preview"><img class="work__pic js-parallax" data-scale="2" data-orientation="down" src="img/work-cube.png" alt=""></div>
+        <div class="work__figures" data-aos>
+          <div class="work__figure"><img class="work__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/work-cube-1.png" alt=""></div>
+          <div class="work__figure"><img class="work__pic js-parallax" data-scale="1.5" data-orientation="up left" src="img/work-cube-2.png" alt=""></div>
+          <div class="work__figure"><img class="work__pic js-parallax" data-scale="1.3" data-orientation="up right" src="img/work-cube-3.png" alt=""></div>
+          <div class="work__figure"><img class="work__pic" src="img/work-cube-4.png" alt=""></div>
+          <div class="work__figure"><img class="work__pic js-parallax" data-scale="1.1" data-orientation="left" src="img/work-cube-5.png" alt=""></div>
+          <div class="work__figure"><img class="work__pic js-parallax" data-scale="1.2" data-orientation="right" src="img/work-cube-6.png" alt=""></div>
+          <div class="work__figure"><img class="work__pic js-parallax" data-scale="1.2" data-orientation="down" src="img/work-cube-7.png" alt=""></div>
+        </div>
+      </div>
+      <div class="wrapper wrapper_gradient">
+        <div class="cases cases_main" id="cases">
+          <div class="cases__center center">
+            <div class="cases__stage stage" data-aos="animation-scale-y">Portfolio</div>
+            <h2 class="cases__title h1" data-aos="animation-scale-y" data-aos-delay="150">Look at My <br>Projects.</h2>
+            <!-- <div class="cases__nav" data-aos="animation-scale-y" data-aos-delay="300"><a class="cases__link active" href="#">Website</a><a class="cases__link">Illustration</a><a class="cases__link" href="#">Mobile</a></div> -->
+            <div class="cases__list js-owl" data-items-mobile-portrait="1" data-items-mobile-album="1" data-autoheight><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="https://github.com/Bone-Project/BoneOS">
+                <div class="cases__preview"><img class="cases__pic" src="img/boneos.png" alt="">
+                  <div class="cases__box">View <br>GitHub</div>
+                </div>
+                <div class="cases__body">
+                  <h4 class="cases__info h4">BoneOS</h4>
+                  <div class="cases__text">Operating System built predominately in C and Assembly. Python,Bash Script , and Makefile used for Building. This Operating System also has a custom kernel, custom memory manager, proccess scheduler, file system,bootloader and many more feautures</div>
+                </div>
+              </a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="200" href="https://github.com/Hackagroup/BirdsEye">
+                <div class="cases__preview"><img class="cases__pic" src="img/birdseye.png" alt="">
+                  <div class="cases__box">View <br>GitHub</div>
+                </div>
+                <div class="cases__body">
+                  <h4 class="cases__info h4">BirdsEye</h4>
+                  <div class="cases__text">BirdsEye, a Twitter extension website built using React, NodeJS, and the Twitter API. This website refers you to similar tweets from what you tweeted so you can see the other point of view hence giving you a birds-eye view! </div>
+                </div>
+              </a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="https://github.com/amanuel2/ng-forum">
+                <div class="cases__preview"><img class="cases__pic" src="img/angularfire.png" alt="">
+                  <div class="cases__box">View <br>GitHub</div>
+                </div>
+                <div class="cases__body">
+                  <h4 class="cases__info h4">Ng-Forum</h4>
+                  <div class="cases__text">Ng-forum is a full scale forum application built only in AngularJS and Firebase. This website allows users to register post/edit topics as well as answer them and have their normal user interactions such as like/bookmark posts and more!</div>
+                </div>
+              </a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="200" href="https://github.com/Hackagroup/Gasper">
+                <div class="cases__preview"><img class="cases__pic" src="img/gasper.png" alt="">
+                  <div class="cases__box">View <br>GitHub</div>
+                </div>
+                <div class="cases__body">
+                  <h4 class="cases__info h4">Gasper</h4>
+                  <div class="cases__text">Gasper is a website where you could post info about a protest on a calendar (what time, date, etc...) so others can join, as well as rallies, protests, marches, and other forms of social justice gatherings.</div>
+                </div>
+              </a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="https://github.com/Servo-Team/Servo">
+                <div class="cases__preview"><img class="cases__pic" src="img/servo.png" alt="">
+                  <div class="cases__box">View <br>GitHub</div>
+                </div>
+                <div class="cases__body">
+                  <h4 class="cases__info h4">Servo</h4>
+                  <div class="cases__text">Servo is an android application developed mainly in Java and MSSQL
+using Android Studio. This application allows users to login via email or other third-party authentication services and enables user to request services for other users on the application to complete. </div>
+                </div>
+              </a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="200" href="https://github.com/I-Matrix/IMatrix">
+                <div class="cases__preview"><img class="cases__pic" src="img/imatrix.png" alt="">
+                  <div class="cases__box">View <br>GitHub</div>
+                </div>
+                <div class="cases__body">
+                  <h4 class="cases__info h4">IMatrix</h4>
+                  <div class="cases__text">IMatrix is a website that compresses your image using the Singular
+Value Decomposition algorithm. This website is built using Java's
+popular Spring framework and Amazon Web Services.</div>
+                </div>
+              </a></div>
+          </div>
+          <div class="cases__figures">
+            <div class="cases__figure"><img class="cases__pic js-parallax" data-scale="2" data-orientation="down" src="img/figure-2.png" alt=""></div>
+            <div class="cases__figure"><img class="cases__pic js-parallax" data-scale="1.8" data-orientation="down" src="img/figure-3.png" alt=""></div>
+          </div>
+        </div>
+        <div class="review">
+          <div class="review__center center">
+            <div class="review__stage stage" data-aos="animation-scale-y">What People Say</div>
+            <h2 class="review__title title h1" data-aos="animation-scale-y" data-aos-delay="200">Trusted by <br>Clients.</h2>
+            <div class="review__container" data-aos="animation-translate-y" data-aos-delay="400">
+              <div class="review__slider owl-carousel js-slider-review">
+                <div class="review__item">
+                  <div class="review__text">“ I worked on a team with Aman for Twitter's Hackathon, Codechella, in November of 2020. He was able to rise to the challenge of leading our team of 5 students, since he had participated in Hackathons in the past and had good vision for how we could accomplish our goal. I was very impressed by his work ethic and problem solving skills. He was a good team player and definitely an asset to the group. ”</div>
+                  <div class="review__author">
+                    <div class="review__ava"><img class="review__pic" src="img/twitter.png" alt=""></div>
+                    <div class="review__details">
+                      <div class="review__man h5">Lindsey Reynolds</div>
+                      <div class="review__company">Software Engineer</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__item">
+                  <div class="review__text">“ I met Amanuel during the Twitter 2020 hackathon, and we worked in a team together. Amanuel has an intensely inquisitive mind. He picked up modern ReactJS very quickly and helped the group on the frontend with his captivating ideas. Amanuel handled most of the deployment, CI pipeline, and testing like a breeze and saved us a lot of heavy lifting work. He is bright, dedicated, and always eager to learn. I highly recommend working with him! ”</div>
+                  <div class="review__author">
+                    <div class="review__ava"><img class="review__pic" src="img/sparrow.svg" alt=""></div>
+                    <div class="review__details">
+                      <div class="review__man h5">Ajay Dabas</div>
+                      <div class="review__company">SWE Intern</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__item">
+                  <div class="review__text">“ It was a pleasure to know and work with Amanuel for about 2 months during his internship at oracle cloud infrastructure. As his mentor, I was convinced by his programming ability as he quickly wraps up our service overview and starts his intern project from scratch smoothly. He’s definitely a fast learner and the enthusiasm he showed in exploring innovative methods is impressive. He had a positive attitude to overcome the challenges he had. I’m sure he will be a great asset to any team he joins in the future! ”</div>
+                  <div class="review__author">
+                    <div class="review__ava"><img class="review__pic" src="img/oracle.png" alt=""></div>
+                    <div class="review__details">
+                      <div class="review__man h5">Zikai Zhu</div>
+                      <div class="review__company">Software Engineer</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__item">
+                  <div class="review__text">“ Amanuel joined our team for a 4-month internship and I was his mentor. He had a good technical background, and demonstrated diligence and perserverance. He was passionate about the work and showed a strong sense of ownership and responsibility. Besides, he had many creative ideas about how to improve our products, which is a precious quality not everyone has. I witnessed his growth during his time with us, and I believe as long as he keeps his positive attitude towards learning, he will grow into a strong software engineer. I recommend him with my best wishes :D ”</div>
+                  <div class="review__author">
+                    <div class="review__ava"><img class="review__pic" src="img/coursera.png" alt=""></div>
+                    <div class="review__details">
+                      <div class="review__man h5">Lisa Shuo Li</div>
+                      <div class="review__company">Software Engineer</div>
+                    </div>
+                  </div>
+                </div>
+<!--            <div class="review__item">
+                  <div class="review__text">“ Folio Designer is a clean and creative landing page that matches with any freelancer or designer, you can easily to build the page in Sketch or Figma.”</div>
+                  <div class="review__author">
+                    <div class="review__ava"><img class="review__pic" src="img/ava-1.jpg" alt=""></div>
+                    <div class="review__details">
+                      <div class="review__man h5">Dash</div>
+                      <div class="review__company">UI8</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__item">
+                  <div class="review__text">“ Folio Designer is a clean and creative landing page that matches with any freelancer or designer, you can easily to build the page in Sketch or Figma.”</div>
+                  <div class="review__author">
+                    <div class="review__ava"><img class="review__pic" src="img/ava-1.jpg" alt=""></div>
+                    <div class="review__details">
+                      <div class="review__man h5">Dash</div>
+                      <div class="review__company">UI8</div>
+                    </div>
+                  </div>
+                </div>
+-->
+              </div>
+            </div>
+          </div>
+          <div class="review__bg">
+            <div class="review__preview"><img class="review__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/review-cube.png" alt=""></div>
+            <div class="review__preview"><img class="review__pic" src="img/review-cube.png" alt=""></div>
+          </div>
+        </div>
+        <div class="wrapper wrapper_dark">
+          <div class="contacts">
+            <div class="contacts__center center">
+              <div class="contacts__container">
+                <div class="contacts__wrap">
+                  <div class="contacts__stage stage" data-aos="animation-scale-y">Say hello 👋</div>
+                  <h2 class="contacts__title h1" data-aos="animation-scale-y" data-aos-delay="200">Let’s Work <br>Together.</h2>
+                  <div class="contacts__info" data-aos="animation-scale-y" data-aos-delay="400">I’d love to meet up with you to discuss your venture, and potential collaborations.</div>
+                </div>
+                <div class="contacts__row">
+                  <div class="contacts__details" data-aos="animation-translate-y">
+                    <a class="contacts__line" href="mailto:hello@ui8.net">
+                      <div class="contacts__icon"><svg class="icon icon-email">
+                          <use xlink:href="img/sprite.svg#icon-email"></use>
+                        </svg></div>
+                      <div class="contacts__text">abogale2@gmail.com</div>
                     </a>
-                </div>
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul id="navbar" class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#home" class="page-scroll">Home</a></li>
-                        <li class=""><a href="#about" class="page-scroll">About</a></li>
-                        <li class=""><a href="#service" class="page-scroll">Services</a></li>
-                        <li class=""><a href="#skill" class="page-scroll">Skill</a></li>
-                        <li class=""><a href="#portfolio" class="page-scroll">Portfolio</a></li>
-                        <li class=""><a href="#availability-calendar" class="page-scroll">Awards</a></li>
-                        <li class=""><a href="#contact" class="page-scroll">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!--=================================
-            header -->
-        <!--=================================
-            intro -->
-        <div class="intro-bg gradient-01" style="background: url('images/background.png');">
-            <div id="scroll-down" class="intro">
-                <div class="intro-content">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h1> <span> </span> Amanuel </h1>
-                                <div id="typer"></div>
-                                <div class="button-large">
-                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abogale2@gmailcom&su=SUBJECT&body=BODY">Contact Me</a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="contacts__line">
+                      <div class="contacts__icon"><svg class="icon icon-place">
+                          <use xlink:href="img/sprite.svg#icon-place"></use>
+                        </svg></div>
+                      <div class="contacts__text">
+                        <p>4074 Ebert Summit Suite 375</p>
+                        <p>Lake Leonardchester</p>
+                      </div>
+                    </div><a class="contacts__line" href="tel:+441236547890">
+                      <div class="contacts__icon"><svg class="icon icon-phone">
+                          <use xlink:href="img/sprite.svg#icon-phone"></use>
+                        </svg></div>
+                      <div class="contacts__text">+484 838 4346</div>
+                    </a>
+                  </div>
+                  <form method="POST" class="contacts__form" action = "mailto:contact@yourdomain.com" data-aos="animation-translate-y" data-aos-delay="200">
+                    <div class="contacts__field field">
+                      <div class="field__wrap"><input class="field__input" type="text" name="name" placeholder="Name" />
+                        <div class="field__icon"><svg class="icon icon-profile">
+                            <use xlink:href="img/sprite.svg#icon-profile"></use>
+                          </svg></div>
+                      </div>
                     </div>
+                    <div class="contacts__field field">
+                      <div class="field__wrap"><input class="field__input" type="email" name="email" placeholder="Email" />
+                        <div class="field__icon"><svg class="icon icon-send">
+                            <use xlink:href="img/sprite.svg#icon-send"></use>
+                          </svg></div>
+                      </div>
+                    </div>
+                    <div class="contacts__field field">
+                      <div class="field__wrap"><select class="field__select" name="question">
+                          <option>Do you have time to talk?</option>
+                          <option>I have some important news!</option>
+                          <option>Care to share time?</option>
+                          <option>What are you working on?</option>
+                        </select>
+                        <div class="field__icon"><svg class="icon icon-arrows">
+                            <use xlink:href="img/sprite.svg#icon-arrows"></use>
+                          </svg></div>
+                      </div>
+                    </div>
+                    <div class="contacts__field field field_textarea">
+                      <div class="field__wrap"><textarea class="field__textarea" name="message" placeholder="Message"></textarea>
+                        <div class="field__icon"><svg class="icon icon-message">
+                            <use xlink:href="img/sprite.svg#icon-message"></use>
+                          </svg></div>
+                      </div>
+                    </div>
+                    <div class="contacts__btn">
+                      <button class="btn btn_purple">
+                        <span class="btn__text">Let’s Talk</span>
+                        <svg class="icon icon-arrow-right">
+                          <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </form>
                 </div>
-                <a class="scroll-down page-scroll" title="Scroll Down" href="#about"><i></i></a>
+                <div class="contacts__category h5">Let’s connect</div>
+                <div class="contacts__social">
+                  <div class="contacts__box" data-aos="animation-translate-y"><a class="contacts__link" href="https://www.instagram.com/therealamanuel2/">
+                      <img class="icon icon-instagram" src="img/ig.svg"/>
+                      <div class="contacts__text">Instagram</div>
+                    </a></div>
+                  <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="150"><a class="contacts__link" href="https://www.facebook.com/realamanuel2">
+                      <img class="icon icon-instagram" src="img/fb.svg"/>
+                      <div class="contacts__text">Facebook</div>
+                    </a></div>
+                  <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="300"><a class="contacts__link" href="https://www.snapchat.com/add/realamanuel2">
+                      <img class="icon icon-instagram" src="img/sc.svg"/>
+                      <div class="contacts__text">Snapchat</div>
+                    </a></div>
+                  <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="450"><a class="contacts__link" href="https://stackoverflow.com/users/5768335/amanuel2?tab=profile">
+                      <img class="icon icon-instagram" src="img/so.svg"/>
+                      <div class="contacts__text">StackOverflow</div>
+                    </a></div>
+                </div>
+                <div class="figures">
+                  <div class="figures__preview"><img class="figures__pic" src="img/figures-1.png" alt="" /></div>
+                  <div class="figures__preview"><img class="figures__pic js-parallax" data-scale="1.6" data-orientation="up" src="img/figures-2.png" alt="" /></div>
+                  <div class="figures__preview"><img class="figures__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/figures-3.png" alt="" /></div>
+                  <div class="figures__preview"><img class="figures__pic" src="img/figures-4.png" alt="" /></div>
+                  <div class="figures__preview"><img class="figures__pic js-parallax" data-scale="2.3" data-orientation="down" src="img/figures-5.png" alt="" /></div>
+                  <div class="figures__preview"><img class="figures__pic js-parallax" data-scale="2" data-orientation="up" src="img/figures-6.png" alt="" /></div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="footer">
+            <div class="footer__center center">
+              <div class="footer__body"><a class="footer__logo" href="index.html"><img class="footer__pic" src="img/amanuel2.png" alt="" /></a>
+                <div class="footer__wrap">
+                  <div class="footer__title h1">You only have one chance to make a first impression.</div>
+                  <div class="footer__info h4">Let’s make it an amazing one.</div>
+                </div>
+                <!-- <div class="footer__menu"><a class="footer__link" href="#">About Me</a><a class="footer__link" href="#">Projects</a><a class="footer__link" href="#">Contact</a><a class="footer__link" href="#">Dribbble</a><a class="footer__link" href="#">Instagram</a></div> -->
+              </div>
+              <div class="footer__bottom">
+                <div class="footer__copyright">© 2021</div><a class="footer__scroll js-scroll" href="#header">Back to top</a>
+              </div>
+            </div>
+            <div class="footer__bg">
+              <div class="footer__preview"><img class="footer__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/footer-cube-1.png" alt="" /></div>
+              <div class="footer__preview"><img class="footer__pic js-parallax" data-scale="1.8" data-orientation="up" src="img/footer-cube-1.png" alt="" /></div>
+            </div>
+          </div>
         </div>
-        <!--=================================
-            intro -->
-        <!--=================================
-            about -->
-        <section id="about" class="about white-bg page-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="about-image">
-                            <img class="img-responsive" src="Freelancer_files/amanuel2.png" alt="">
-                        </div>
-                        <div class="about-social">
-                            <ul>
-                                <li><a href="https://www.facebook.com/realamanuel2"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li><a href="https://twitter.com/therealamanuel2"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="http://github.com/amanuel2"><i class="fab fa-github"></i> </a></li>
-                                <li><a href="https://www.instagram.com/therealamanuel2/"><i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://stackoverflow.com/users/5768335/amanuel2?tab=profile"><i class="fab fa-stack-overflow"></i> </a></li>
-                                <li><a href="https://www.linkedin.com/in/amanuel-bogale-b3b468110/"><i
-                                    class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-8">
-                        <div class="section-title">
-                            <div class="section-title-name">
-                                <h2>About Me</h2>
-                            </div>
-                        </div>
-                        <div class="contact-block">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-4">
-                                    <div class="my-contact clearfix">
-                                        <div class="contact-icon">
-                                            <span class="ti-user"></span>
-                                        </div>
-                                        <div class="contact-info">
-                                            <h4>Name:</h4>
-                                            <p>Amanuel Bogale</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <span class="backspace">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                        <div class="my-contact clearfix">
-                                            <div class="contact-icon">
-                                                <span class="ti-mobile"></span>
-                                            </div>
-                                            <div class="contact-info">
-                                                <h4>Profession:</h4>
-                                                <p>Developer</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </span>
-                                <div class="col-lg-4 col-md-4 col-sm-4">
-                                    <div class="my-contact clearfix">
-                                        <div class="contact-icon">
-                                            <span class="ti-email"></span>
-                                        </div>
-                                        <div class="contact-info">
-                                            <h4>Email:</h4>
-                                            <p>abogale2@gmail.com</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-4">
-                                    <div class="my-contact clearfix">
-                                        <div class="contact-icon">
-                                            <span class="ti-heart"></span>
-                                        </div>
-                                        <div class="contact-info">
-                                            <h4>Hobbies: </h4>
-                                            <p>Music Production, Programming and Sports</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4">
-                                    <div class="my-contact clearfix">
-                                        <div class="contact-icon">
-                                            <span class="ti-direction-alt"></span>
-                                        </div>
-                                        <div class="contact-info">
-                                            <h4>Location: </h4>
-                                            <p>Maryland, USA</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4">
-                                    <div class="my-contact clearfix">
-                                        <div class="contact-icon">
-                                            <span class="ti-flag-alt-2"></span>
-                                        </div>
-                                        <div class="contact-info">
-                                            <h4>Nationality: </h4>
-                                            <p>Ethiopian</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="about-block clearfix">
-                                        <p>Hey, Im Amanuel Bogale a 19 year old developer who is currently looking
-                                            for an internship in the field of computer science.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--=================================
-            about -->
-        <!--=================================
-            services -->
-        <section id="service" class="services white-bg page-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                        <div class="section-title">
-                            <div class="col-lg-12 text-center">
-                                <h2>Services</h2>
-                                <hr class="star-primary">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="service-block">
-                            <span class="ti-microsoft"></span>
-                            <h2>Osdev</h2>
-                            <p>I have developed an Operating System with a custom kernel called BoneOS.
-                                BoneOS has a custom memory manager, proccess scheduler, file system,
-                                bootloader and many more feautures 
-                            </p>
-                            <div class="contact-button">
-                                <a class="clearfix" href="https://github.com/amanuel2/BoneOS"> <span
-                                    class="pull-left">Source</span> <span
-                                    class="ti-arrow-circle-right pull-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="service-block">
-                            <span class="ti-android"></span>
-                            <h2>Android Development</h2>
-                            <p>I have developed an application that allows users to register and book services as well as work on them for
-                                the pricing of their choosing. This application allows users to even sign in with their fav apps such as
-                                google and facebook.
-                            </p>
-                            <div class="contact-button">
-                                <a class="clearfix" href="https://github.com/Servo-Team/Servo"> <span class="pull-left">Source</span> <span
-                                    class="ti-arrow-circle-right pull-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="service-block">
-                            <span class="ti-desktop"></span>
-                            <h2>Website Developer</h2>
-                            <p>I have also made websites like a full-scale forum called ng-forum made fully out of
-                                AngularJS and Firebase known as AngularFire. This website allows users to register
-                                post/edit topics as well as answer them and have their normal user interactions such
-                                as like/bookmark posts and more!
-                            </p>
-                            <div class="contact-button">
-                                <a class="clearfix" href="https://github.com/amanuel2/ng-forum"> <span class="pull-left">Source</span> <span
-                                    class="ti-arrow-circle-right pull-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="service-block">
-                            <span class="fab fa-java"></span>
-                            <h2>IMatrix</h2>
-                            <p>I have produced a Java Spring application that compresses images based on the Singular Value
-                                Decomposition algorithm.
-                            </p>
-                            <div class="contact-button">
-                                <a class="clearfix" href="https://github.com/I-Matrix/IMatrix"> <span
-                                    class="pull-left">Source</span> <span
-                                    class="ti-arrow-circle-right pull-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="service-block">
-                            <span class="ti-linux"></span>
-                            <h2>Sysadmin</h2>
-                            <p>Im am also proficient with Linux System Adminstration. Skills within this realm include memory management,
-                                system monitoring, booting
-                                and Managing User Accounts.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="service-block">
-                            <span class="fas fa-robot"></span>
-                            <h2>AI Development</h2>
-                            <p>Coming Soon.</p>
-                            <!-- <div class="contact-button">
-                                <a class="clearfix" href="#"> <span class="pull-left">Read More...</span> <span class="ti-arrow-circle-right pull-right"></span></a>
-                                </div> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--=================================
-            services -->
-        <!--=================================
-            My Skill -->
-        <section id="skill" class="my-skill white-bg page-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                        <div class="section-title">
-                            <div class="section-title-name">
-                                <h2></h2>
-                            </div>
-                            <div class="title-name-gray">
-                                <!-- <strong>Le mie abilità</strong> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="skill-content">
-                            <div class="section-title-name">
-                                <h2>About Me</h2>
-                            </div>
-                            <span>"I develop your dream"</span>
-                            <p>The important thing about a project isn't finishing it, but finishing it with quality.
-                                <br />
-                                <br /> My first priorty is quality (Code style, Optimization, Extensive Security, etc...)
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="skill">
-                            <ul>
-                                <li>
-                                    Java
-                                    <div class="bar_container">
-                                        <span class="bar" data-bar='{ "color": "#07cb79" }'>
-                                        <span class="pct">100%</span>
-                                        </span>
-                                    </div>
-                                </li>
-                                <li>
-                                    Python
-                                    <div class="bar_container">
-                                        <span class="bar" data-bar='{ "color": "#07cb79", "delay": "1800" }'>
-                                            <span class="pct">70%</span>
-                                        </span>
-                                    </div>
-                                </li>
-                                <li>
-                                    Javascript
-                                    <div class="bar_container">
-                                        <span class="bar" data-bar='{ "color": "#07cb79", "delay": "600" }'>
-                                        <span class="pct">60%</span>
-                                        </span>
-                                    </div>
-                                </li>
-                                <li>
-                                    C/C++
-                                    <div class="bar_container">
-                                        <span class="bar" data-bar='{ "color": "#07cb79", "delay": "1200" }'>
-                                        <span class="pct">30%</span>
-                                        </span>
-                                    </div>
-                                </li>
-
-                            </ul>
-                            <div class="skill-chart">
-                                <div class="skill-chart-expand clearfix">
-                                    <div class="expand expand-left">
-                                        <p>Beginner</p>
-                                    </div>
-                                    <div class="expand expand-left">
-                                        <p>Amateur</p>
-                                    </div>
-                                    <div class="expand expand-right">
-                                        <p>Professional</p>
-                                    </div>
-                                    <div class="expand expand-right">
-                                        <p>Expert</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <div class="language-skills">
-                    <div class="knowledge">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="col-lg-12 text-center">
-                                    <h2>Attributes</h2>
-                                    <hr class="star-primary">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <ul>
-                                    <li><span class="ti-hand-point-right"></span> Organized</li>
-                                    <li><span class="ti-hand-point-right"></span> Creative </li>
-                                    <li><span class="ti-hand-point-right"></span> Plan to achieve a project</li>
-                                    <li><span class="ti-hand-point-right"></span> Review Code</li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <ul>
-                                    <li><span class="ti-hand-point-right"></span> Communication </li>
-                                    <li><span class="ti-hand-point-right"></span> Attention to detail </li>
-                                    <li><span class="ti-hand-point-right"></span> Ability to finish before deadlines</li>
-                                    <li><span class="ti-hand-point-right"></span> Optimization </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <ul>
-                                    <li><span class="ti-hand-point-right"></span> Cultivate a design</li>
-                                    <li><span class="ti-hand-point-right"></span> Right balance of tools </li>
-                                    <li><span class="ti-hand-point-right"></span> Approach every new skill</li>
-                                    <li><span class="ti-hand-point-right"></span> Ability to solve a problem in different ways</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--=================================
-            My Skill -->
-        <!--=================================
-            portfolio -->
-        <section id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>Portfolio</h2>
-                        <hr class="star-primary">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="images/boneos.png" class="img-responsive" alt="Slice of cake">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="images/rsz_angularfire.png" class="img-responsive" alt="Cabin">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="images/servologo.png" class="img-responsive" alt="Cabin">
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="images/rsz_imatrix.png" class="img-responsive" alt="Cabin">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Portfolio Modals -->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <a href="https://github.com/amanuel2/ng-forum">
-                                    <h2>Ng-forum</h2>
-                                </a>
-                                <hr class="star-primary">
-                                <img src="images/angularfire.png" class="img-responsive img-centered" alt="">
-                                <p>Ng-forum is a full scale forum application built only in AngularJS and
-                                    Firebase(AngularFire). This website allows users to register
-                                    post/edit topics as well as answer them and have their normal user interactions such
-                                    as like/bookmark posts and more!
-                                </p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="#">Amanuel</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong><a href="#">April 2015</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong><a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i
-                                    class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <a href="https://github.com/Bone-Project/BoneOS">
-                                    <h2>BoneOS</h2>
-                                </a>
-                                <hr class="star-primary">
-                                <img src="images/rzs_boneos.png" class="img-responsive img-centered" alt="">
-                                <p>Operating System built predominately in C, Assembly. Python,Bash Script , and Makefile
-                                    used for Building. This Operating System also has a custom kernel, custom memory manager, 
-                                    proccess scheduler, file system,bootloader and many more feautures
-                                </p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="#">Amanuel</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong><a href="#">April 2016</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong><a href="#">OSDev</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i
-                                    class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <a href="https://github.com/I-Matrix/IMatrix">
-                                    <h2>IMatrix</h2>
-                                </a>
-                                <hr class="star-primary">
-                                <img src="images/rsz_imatrix.png" class="img-responsive img-centered" alt="">
-                                <p>Java Spring application that compresses images based on the famous Singular Value
-                                    Decomposition algorithm.
-                                    Utilizes maven for dependancy management and Jama for matrix operations.
-                                </p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="#">Amanuel</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong><a href="#">August 2020</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong><a href="https://spring.io/">Spring</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i
-                                    class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <a href="https://github.com/Servo-Team/Servo">
-                                    <h2>Servo</h2>
-                                </a>
-                                <hr class="star-primary">
-                                <img src="images/rsz_servologo.png" class="img-responsive img-centered" alt="">
-                                <p>Android application that allows users to register and book services as well as work on them for
-                                    the pricing of their choosing. This application allows users to even sign in with their fav apps such as
-                                    google and facebook.
-                                </p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="#">Amanuel</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong><a href="#">August 2020</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong><a href="https://developer.android.com/">Android Dev</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-                                Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--=================================
-            portfolio -->
-        <!--=================================
-            calendar -->
-        <section id="availability-calendar" class="calendar white-bg page-section">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <section id="portfolio">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12 text-center">
-                                    <h2>Awards</h2>
-                                    <hr class="star-primary">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-4 portfolio-item">
-                                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                                        <div class="caption">
-                                            <div class="caption-content">
-                                                <i class="fa fa-search-plus fa-3x"></i>
-                                            </div>
-                                        </div>
-                                        <img src="images/Oracle_Associates_Badge__1_.png"
-                                            class="img-responsive" alt="Cabin">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
-                        aria-hidden="true">
-                        <div class="modal-content">
-                            <div class="close-modal" data-dismiss="modal">
-                                <div class="lr">
-                                    <div class="rl">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-8 col-lg-offset-2">
-                                        <div class="modal-body">
-                                            <h2>Oracle Certified Associate, Java SE 8 Programmer</h2>
-                                            <hr class="star-primary">
-                                            <img src="images/oracle.png" class="img-responsive img-centered" alt="">
-                                            <p>An Oracle Certified Associate, Java SE 8 Programmer has demonstrated
-                                                knowledge of object-oriented concepts, the Java
-                                                programming language and general knowledge of Java platforms and
-                                                technologies.
-                                            </p>
-                                            <ul class="list-inline item-details">
-                                                <li>Client:
-                                                    <strong><a href="#">Amanuel</a>
-                                                    </strong>
-                                                </li>
-                                                <li>Date:
-                                                    <strong><a href="#">June 2019</a>
-                                                    </strong>
-                                                </li>
-                                                <li>Issued By:
-                                                    <strong><a href="https://www.oracle.com/index.html">Oracle</a>
-                                                    </strong>
-                                                </li>
-                                            </ul>
-                                            <button type="button" class="btn btn-default" data-dismiss="modal"><i
-                                                class="fa fa-times"></i> Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="contact" class="google-map white-bg page-section-pt">
-            <footer class="footer-bs">
-                <div class="row">
-                    <div class="col-md-3 footer-brand animated fadeInLeft">
-                        <h3 style="color:white">Amanuel</h3>
-                        <p>Java Developer, Python Developer, JavaScipt Developer and C/C++ developer</p>
-                        <p>© 2020, Amanuel all rights reserved</p>
-                    </div>
-                    <div class="col-md-4 footer-brand animated fadeInUp">
-                        <h3 style="color:white">Contact</h3>
-                        <p>Email : abogale2@gmail.com</p>
-                        <p>Phone : (484) 838-4346</p>
-                    </div>
-                    <div class="col-md-3 footer-ns animated fadeInRight">
-                    </div>
-                </div>
-            </footer>
-        </section>
-        <!--=================================
-            javascript -->
-        <!-- jquery -->
-        <script type="text/javascript" src="Freelancer_files/jquery.min.js"></script>
-        <!-- modernizr -->
-        <script type="text/javascript" src="Freelancer_files/modernizr.min.js"></script>
-        <!-- Plugins -->
-        <script type="text/javascript" src='Freelancer_files/plugins.js'></script>
-        <!-- map script -->
-        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-        <script type="text/javascript" src="Freelancer_files/map-scripts.js"></script>
-        <script type="text/javascript" src="Freelancer_files/datepicker-script.js"></script>
-        <!-- custom -->
-        <script type="text/javascript" src="Freelancer_files/custom.js"></script>
-        <!-- Google analytics -->
-<!--         <script>
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-            
-            ga('create', 'UA-84675269-1', 'auto');
-            ga('send', 'pageview');
-        </script> -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177212170-1"></script>
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'UA-177212170-1');
-            </script>
-
-    </body>
+      </div>
+      <div class="cursor"></div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/common.js"></script>
+  </body>
 </html>
