@@ -48,17 +48,17 @@
         target: '.navbar-default',
         offset: 80
     })
-    $("html").niceScroll({
-        scrollspeed: 150,
-        mousescrollstep: 38,
-        cursorwidth: 7,
-        cursorborder: 0,
-        cursorcolor: '#2f3742',
-        autohidemode: true,
-        zindex: 999999999,
-        horizrailenabled: false,
-        cursorborderradius: 0
-    });
+    // $("html").niceScroll({
+    //     scrollspeed: 150,
+    //     mousescrollstep: 38,
+    //     cursorwidth: 7,
+    //     cursorborder: 0,
+    //     cursorcolor: '#2f3742',
+    //     autohidemode: true,
+    //     zindex: 999999999,
+    //     horizrailenabled: false,
+    //     cursorborderradius: 0
+    // });
     /*
     $("#contactform").submit(function(e) {
         $("#ajaxloader").show();
@@ -95,7 +95,7 @@
     }); 
     var win = $(window)
       , foo = $('#typer');
-    foo.typer(['<h2>Java Developer</h2>', '<h2>Android Developer/ JavaScript Developer</h2>','<h2>Python Developer</h2>']);
+    foo.typer(['<h2>Java Developer</h2>', '<h2>Android Developer/ JavaScript Developer</h2>','<h2>AI Developer</h2>']);
     win.resize(function() {
         var fontSize = Math.max(Math.min(win.width() / (1 * 10), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY));
         foo.css({
